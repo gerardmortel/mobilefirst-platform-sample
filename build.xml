@@ -144,7 +144,7 @@
 <basename file="${basedir}" property="ProjectName"/>
   <taskdef resource="com/worklight/ant/defaults.properties">
     <classpath>
-      <pathelement location="${worklight.jars.dir}\worklight-ant-builder.jar"/>
+      <pathelement location="${worklight.ant.tools.dir}/worklight-ant-builder.jar"/>
     </classpath>
   </taskdef>
 <target name="build-All" description="Build MobileFirst adapters and apps for project">
